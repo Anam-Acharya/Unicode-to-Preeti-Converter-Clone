@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f8f8f8;
+}
+main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f8f8f8;
+    padding-top: 16px;
+}
+.nav_container{
+    background-color: #717171;
+    padding: 10px;
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    border-radius: 2px;
+}
+nav a{
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.unicodebox{
+    background-color: #f0f0f0;
+    color: #111;
+    margin: 8px;
+    border: 1px solid #ddd;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    /* border-radius: .125rem; */
+    margin: 30px;
+    margin-bottom: 16px;
+}
+h1{
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+p{
+    text-align:center;
+    line-height: normal;
+}
+#textarea1{
+    height: 250px;
+    width: 396px;
+    border: 1px;
+    margin: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #f8f8f8;
+    border: 1px solid #cfcfcf;
+
+}
+#textarea1:hover{
+    border: 1px solid #018CD6;
+}
+.textarea{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    border-radius: 2px; 
+}
+p{
+    line-height: 1.5;
+}
+.submit-button{
+    height: 40px;
+    font-size: large;
+    border: 1px solid black;
+    background-color: #e2e2e2;
+    border-radius: 2px;
+    margin: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.submit_flex {
+    display: flex;
+    justify-content: center; /* Adjust as needed: flex-start, flex-end, etc. */
+    align-items: center;
+}
+.submit-button:hover{
+    background-color: #D2D2D2;
+    border: 0px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner-ad{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+}
+.ads{
+    text-align: center;
+    padding-bottom: 20px;
+}
